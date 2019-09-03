@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BrightFutures (8.0.0)
+  - KIF (3.7.8):
+    - KIF/Core (= 3.7.8)
+  - KIF/Core (3.7.8)
+  - Kingfisher (5.7.1)
+  - Nimble (8.0.2)
+  - Quick (2.1.0)
+  - Spry (3.2.3)
+  - "Spry+Nimble (3.2.3)":
+    - Nimble (> 7.0.0)
+    - Spry (= 3.2.3)
+  - Swinject (2.6.2)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - BrightFutures
+  - KIF
+  - Kingfisher
+  - Nimble
+  - Quick
+  - Spry
+  - "Spry+Nimble"
+  - Swinject
+  - SwinjectStoryboard
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BrightFutures
+    - KIF
+    - Kingfisher
+    - Nimble
+    - Quick
+    - Spry
+    - "Spry+Nimble"
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BrightFutures: f8427b46feabaf73c5e71ace7d86d65dfbb47696
+  KIF: 52e1af1a78cf6fe4ec6777b14776f3dd2eccc32e
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  Spry: 216a7f6566e6c7a0392f3f4b4e804e71d58e1835
+  "Spry+Nimble": 65b76e7d2dbe2d9166109ff44d8eea44a0bea94e
+  Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
+
+PODFILE CHECKSUM: 63abb044bbea82a17208b9594111c4afdb87064a
+
+COCOAPODS: 1.7.5
