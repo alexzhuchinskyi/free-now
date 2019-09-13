@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0E50BDA464F3D7C349B0B67E /* Pods_FreeNow_FreeNowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9F1A8C9D17AF6003E73978 /* Pods_FreeNow_FreeNowUITests.framework */; };
-		2606A037286B7937DC318798 /* Pods_FreeNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43312D288F6CA524ACF41008 /* Pods_FreeNow.framework */; };
-		D85051D823195E66008F14BC /* FNApi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D850516F23193E90008F14BC /* FNApi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D85051D923195E6D008F14BC /* FNFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85051C823195515008F14BC /* FNFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D85051DA23195E75008F14BC /* FNUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85051CA2319552D008F14BC /* FNUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D85568942329262D00197F5D /* FNApi.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85568922329262D00197F5D /* FNApi.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D85568972329267100197F5D /* FNUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85568952329267100197F5D /* FNUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D86BB28820E4C7A600997E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86BB28720E4C7A600997E7A /* AppDelegate.swift */; };
 		D86BB28D20E4C7A600997E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86BB28B20E4C7A600997E7A /* Main.storyboard */; };
 		D86BB28F20E4C7A800997E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86BB28E20E4C7A800997E7A /* Assets.xcassets */; };
@@ -32,20 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D850516E23193E90008F14BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D850516923193E90008F14BC /* FNApi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D86BB2BF20E4DFB500997E7A;
-			remoteInfo = NLApi;
-		};
-		D850517023193E90008F14BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D850516923193E90008F14BC /* FNApi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D86BB2C820E4DFB500997E7A;
-			remoteInfo = NLApiTests;
-		};
 		D86BB29920E4C7A800997E7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D86BB27C20E4C7A600997E7A /* Project object */;
@@ -69,9 +54,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D85051DA23195E75008F14BC /* FNUIKit.framework in Embed Frameworks */,
 				D85051D923195E6D008F14BC /* FNFoundation.framework in Embed Frameworks */,
-				D85051D823195E66008F14BC /* FNApi.framework in Embed Frameworks */,
+				D85568942329262D00197F5D /* FNApi.framework in Embed Frameworks */,
+				D85568972329267100197F5D /* FNUIKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,17 +64,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		43312D288F6CA524ACF41008 /* Pods_FreeNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9F467A292AEA1D83815F78 /* Pods-FreeNowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeNowTests.release.xcconfig"; path = "Target Support Files/Pods-FreeNowTests/Pods-FreeNowTests.release.xcconfig"; sourceTree = "<group>"; };
 		64C3A568BA31741C6D7C88B2 /* Pods-FreeNow-FreeNowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeNow-FreeNowUITests.release.xcconfig"; path = "Target Support Files/Pods-FreeNow-FreeNowUITests/Pods-FreeNow-FreeNowUITests.release.xcconfig"; sourceTree = "<group>"; };
 		85EC3290C45F0AACECEB313C /* Pods-FreeNow-FreeNowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeNow-FreeNowUITests.debug.xcconfig"; path = "Target Support Files/Pods-FreeNow-FreeNowUITests/Pods-FreeNow-FreeNowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A59C40F8E7495374C3676D48 /* Pods-FreeNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeNow.release.xcconfig"; path = "Target Support Files/Pods-FreeNow/Pods-FreeNow.release.xcconfig"; sourceTree = "<group>"; };
 		CE053D1107A31FD83ABA5FAB /* Pods_FreeNowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeNowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D850516923193E90008F14BC /* FNApi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FNApi.xcodeproj; path = FNApi/FNApi.xcodeproj; sourceTree = "<group>"; };
-		D85051BD231940F0008F14BC /* FNFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FNFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D85051BF231940F7008F14BC /* FNUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FNUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85051C823195515008F14BC /* FNFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FNFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D85051CA2319552D008F14BC /* FNUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FNUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85568922329262D00197F5D /* FNApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FNApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85568952329267100197F5D /* FNUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FNUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86BB28420E4C7A600997E7A /* FreeNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86BB28720E4C7A600997E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86BB28C20E4C7A600997E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -122,7 +104,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2606A037286B7937DC318798 /* Pods_FreeNow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,25 +142,13 @@
 		CCC81A54B98919872E24FABC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D85051CA2319552D008F14BC /* FNUIKit.framework */,
+				D85568952329267100197F5D /* FNUIKit.framework */,
+				D85568922329262D00197F5D /* FNApi.framework */,
 				D85051C823195515008F14BC /* FNFoundation.framework */,
-				D85051BF231940F7008F14BC /* FNUIKit.framework */,
-				D85051BD231940F0008F14BC /* FNFoundation.framework */,
-				D850516923193E90008F14BC /* FNApi.xcodeproj */,
-				43312D288F6CA524ACF41008 /* Pods_FreeNow.framework */,
 				DE9F1A8C9D17AF6003E73978 /* Pods_FreeNow_FreeNowUITests.framework */,
 				CE053D1107A31FD83ABA5FAB /* Pods_FreeNowTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D850516A23193E90008F14BC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D850516F23193E90008F14BC /* FNApi.framework */,
-				D850517123193E90008F14BC /* FNApiTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D86BB27B20E4C7A600997E7A = {
@@ -391,12 +360,6 @@
 			mainGroup = D86BB27B20E4C7A600997E7A;
 			productRefGroup = D86BB28520E4C7A600997E7A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D850516A23193E90008F14BC /* Products */;
-					ProjectRef = D850516923193E90008F14BC /* FNApi.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D86BB28320E4C7A600997E7A /* FreeNow */,
@@ -405,23 +368,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		D850516F23193E90008F14BC /* FNApi.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FNApi.framework;
-			remoteRef = D850516E23193E90008F14BC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D850517123193E90008F14BC /* FNApiTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = FNApiTests.xctest;
-			remoteRef = D850517023193E90008F14BC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D86BB28220E4C7A600997E7A /* Resources */ = {
